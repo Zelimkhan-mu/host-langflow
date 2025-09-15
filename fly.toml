@@ -1,15 +1,15 @@
-# fly.toml app configuration file generated for host-langflow-dpbeaq on 2025-09-15T12:59:19Z
+# fly.toml app configuration file generated for host-langflow-7hrrcw on 2025-09-15T13:11:56Z
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'host-langflow-dpbeaq'
-primary_region = 'cdg'
+app = 'host-langflow-7hrrcw'
+primary_region = 'ams'
 
 [build]
 
 [http_service]
-  internal_port = 7680
+  internal_port = 7860
   force_https = true
   auto_stop_machines = 'stop'
   auto_start_machines = true
